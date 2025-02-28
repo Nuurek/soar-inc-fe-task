@@ -1,1 +1,20 @@
-@import "tailwindcss";
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: InterVariable, sans-serif;
+
+  --color-american-blue: #343c6a;
+  --color-bright-gray: #e6eff5;
+  --color-cultured: #f5f7fa;
+  --color-raisin-black: #232323;
+  --color-philippine-silver: #b1b1b1;
+
+  --text-lg--line-height: 1.25rem;
+  --text-lg--font-weight: 500;
+  --text-2xl: 1.5625rem;
+  --text-2xl--line-height: 1.875rem;
+  --text-2xl--font-weight: 800;
+  --text-3xl: 1.75rem;
+  --text-3xl--line-height: 2.125rem;
+  --text-3xl--font-weight: 600;
+}
