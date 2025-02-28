@@ -1,4 +1,3 @@
-import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { Links, Meta, Outlet, Scripts, ScrollRestoration } from 'react-router';
 
 export function Layout({ children }: { children: React.ReactNode }) {
@@ -22,11 +21,5 @@ export function Layout({ children }: { children: React.ReactNode }) {
 }
 
 export default function Root() {
-  const queryClient = new QueryClient();
-
-  return (
-    <QueryClientProvider client={queryClient}>
-      <Outlet />
-    </QueryClientProvider>
-  );
+  return <Outlet />;
 }

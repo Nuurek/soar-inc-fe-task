@@ -1,9 +1,17 @@
 import './App.css';
 
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+
 import Shell from './shell';
 
 function App() {
-  return <Shell />;
+  const queryClient = new QueryClient();
+
+  return (
+    <QueryClientProvider client={queryClient}>
+      <Shell />
+    </QueryClientProvider>
+  );
 }
 
 export default App;
