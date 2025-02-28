@@ -8,7 +8,7 @@ export default function Sidebar({ isOpenedOnMobile }: SidebarProps) {
   return (
     <aside
       className={classNames(
-        `border-bright-gray fixed top-19 left-0 z-40 h-screen w-64 border bg-white px-10 transition-transform md:top-0 md:translate-x-0`,
+        `border-bright-gray fixed top-36 left-0 z-40 h-screen w-64 border bg-white px-10 transition-transform md:top-0 md:translate-x-0`,
         {
           '-translate-x-full': !isOpenedOnMobile,
           'transform-none': isOpenedOnMobile,

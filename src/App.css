@@ -8,7 +8,13 @@
   --color-cultured: #f5f7fa;
   --color-raisin-black: #232323;
   --color-philippine-silver: #b1b1b1;
+  --color-ceil: #8ba3cb;
+  --color-cerulean-frost: #718ebf;
 
+  --text-xs: 0.8125rem;
+  --text-xs--line-height: 1rem;
+  --text-base: 0.9375rem;
+  --text-base--line-height: 1.125rem;
   --text-lg--line-height: 1.25rem;
   --text-lg--font-weight: 500;
   --text-2xl: 1.5625rem;

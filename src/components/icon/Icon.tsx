@@ -8,8 +8,8 @@ export type IconProps = SVGProps<SVGSVGElement> & {
   icon: IconType;
 };
 
-export function Icon({ icon, ...props }: IconProps) {
+export function Icon({ icon, className, ...props }: IconProps) {
   const Component = React.createElement(Icons[icon], props);
 
-  return <span className="icon">{Component}</span>;
+  return <div className={className}>{Component}</div>;
 }
