@@ -15,7 +15,7 @@ export default function IconButton({
 
   return (
     <button className={className} onClick={onClick}>
-      <Icon icon={icon} />
+      <Icon icon={icon} className="h-3.5 w-4.5" />
     </button>
   );
 }
